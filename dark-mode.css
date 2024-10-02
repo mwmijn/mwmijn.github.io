@@ -1,0 +1,64 @@
+/* General body styling */
+body {
+    background-color: #121212; /* Dark background for the body */
+    color: #e0e0e0; /* Light text color for better readability */
+    font-family: Arial, sans-serif;
+}
+
+/* Map container styling */
+#map {
+    height: 100vh; /* Full viewport height */
+}
+
+/* Leaflet layers and controls styling */
+.leaflet-control {
+    background-color: rgba(30, 30, 30, 0.8); /* Dark control background */
+    border-radius: 5px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.5);
+}
+
+.leaflet-control-zoom-in,
+.leaflet-control-zoom-out {
+    color: #ffffff; /* White color for zoom buttons */
+}
+
+.leaflet-control-attribution {
+    color: #ffffff; /* White color for attribution text */
+}
+
+/* Popup styling */
+.leaflet-popup {
+    background-color: #1e1e1e; /* Dark background for popups */
+    border: 2px solid #3498db; /* Blue border for popups */
+    color: #ffffff; /* White text color in popups */
+}
+
+/* Legend styling */
+.info.legend {
+    background: rgba(30, 30, 30, 0.9); /* Dark background for legend */
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.legend h4 {
+    margin: 0;
+    font-size: 16px;
+    text-align: center;
+    color: #ffffff; /* White text for legend title */
+}
+
+.legend i {
+    width: 18px;
+    height: 18px;
+    float: left;
+    margin-right: 8px;
+}
+
+/* Filter to darken the map tiles */
+.leaflet-layer,
+.leaflet-control-zoom-in,
+.leaflet-control-zoom-out,
+.leaflet-control-attribution {
+    filter: invert(100%) hue-rotate(180deg) brightness(95%) contrast(90%);
+}
