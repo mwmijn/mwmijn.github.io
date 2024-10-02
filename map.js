@@ -52,18 +52,16 @@ currentBuildings.forEach(function(building) {
 // Define historic buildings as polygons with solid colors
 var historicBuildings = [
   {
-    name: "El Paso & Southwestern Railroad Depot",
+    name: "Ying On Building",
     coordinates: [
-      [32.220411893718534, -110.97815901603934],
-        [32.22017072535948, -110.97806300884949],
-        [32.22019696650713, -110.97798472606398],
-        [32.219909563046116, -110.97785474709926],
-        [32.219973291718574, -110.97768636525866],
-        [32.22048936735641, -110.97789167294174],
-        [32.220411893718534, -110.97815901603934]
+      [32.22021849322772, -110.97427717959991],
+        [32.21981546899475, -110.97424894943266],
+        [32.21983636659138, -110.97382902569663],
+        [32.22024834680414, -110.9738643134057],
+        [32.22021849322772, -110.97427717959991]
     ],
-    description: "Built in 1907, this Mission Revival style building served as a passenger depot until 1969.",
-    imageUrl: "https://placehold.co/600x400?text=El+Paso+%26+Southwestern+Railroad+Depot"
+    description: "A historic chinese cultural center in the former chinese block.",
+    imageUrl: "https://dcb.arizona.edu/static/media/c-2889_scan.5de55ad7e46990f0997e.png"
   },
   {
     name: "Santa Rita Hotel",
